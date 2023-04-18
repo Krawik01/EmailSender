@@ -113,7 +113,7 @@ punkty_do_oceny = 100
 
 def main():
     studenty = []  # Lista przechowująca informacje o studentach
-
+    wczytaj_dane_z_pliku("Studenci.txt")
     while True:
         print("1. Dodaj studenta")
         print("2. Usuń studenta")
