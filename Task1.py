@@ -137,6 +137,7 @@ def main():
             # Wywołanie funkcji do wysłania wiadomości email do wszystkich studentów na liście
             wyslij_emaile_do_wszystkich_studentow(studenty, subject, body, sender, password)
         elif wybor == "5":
+            zapisz_dane_do_pliku("Studenci", studenty)
             print("Program został zakończony.")
             break
         else:
